@@ -1,0 +1,6 @@
+services:
+  server:
+    container_name: simultaneous-equation-cannons-calculator
+    build: .
+    ports:
+      - 3040:3040
